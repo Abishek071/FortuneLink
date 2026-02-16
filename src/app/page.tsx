@@ -10,13 +10,13 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50 font-sans text-slate-900">
+    <div className="min-h-screen font-sans text-slate-900">
       <main>
         {/* Hero Section */}
-        <section className="relative py-20 lg:py-32 overflow-hidden bg-slate-900">
+        <section className="relative py-20 lg:py-32 overflow-hidden bg-slate-900 min-h-[calc(100vh-80px)] flex justify-center items-center">
           <div className="absolute inset-0 opacity-20">
-            <div className="absolute -top-24 -left-24 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
-            <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-indigo-500 rounded-full blur-3xl"></div>
+            <div className="absolute -top-24 -left-24 w-96 h-96 bg-secondary rounded-full blur-3xl"></div>
+            <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-secondary rounded-full blur-3xl"></div>
           </div>
 
           <div className="relative max-w-5xl mx-auto px-6 text-center">
