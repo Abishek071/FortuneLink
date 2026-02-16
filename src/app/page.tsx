@@ -1,64 +1,99 @@
-import Image from "next/image";
+// app/page.tsx
+import Navbar from "@/components/layout/Navbar";
 
 export default function Home() {
+  const services = [
+    "End-to-End Software Development",
+    "Artificial Intelligence & Data Solutions",
+    "Engineering Talent Dispatch & Coordination",
+    "Cross-Border Project & Consulting Support",
+  ];
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+    <div className="min-h-screen bg-slate-50 font-sans text-slate-900">
+      <main>
+        {/* Hero Section */}
+        <section className="relative py-20 lg:py-32 overflow-hidden bg-slate-900">
+          <div className="absolute inset-0 opacity-20">
+            <div className="absolute -top-24 -left-24 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
+            <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-indigo-500 rounded-full blur-3xl"></div>
+          </div>
+
+          <div className="relative max-w-5xl mx-auto px-6 text-center">
+            <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 tracking-tight">
+              Welcome to Fortune Link <br />
+              <span className="text-primary">Solutions Pvt. Ltd.</span>
+            </h1>
+            <p className="text-lg md:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
+              Empowering{" "}
+              <span className="text-white font-semibold">TAI Group</span> from
+              Japan to the USA through specialized IT and engineering
+              excellence.
+            </p>
+          </div>
+        </section>
+
+        {/* Content Section */}
+        <section className="max-w-5xl mx-auto px-6 my-8">
+          <div className="bg-white rounded-3xl shadow-xl shadow-slate-200/60 p-8 md:p-12 border border-slate-100">
+            <div className="grid lg:grid-cols-12 gap-12">
+              {/* Text Content */}
+              <div className="lg:col-span-7">
+                <div className="inline-block px-4 py-1.5 mb-6 text-sm font-bold tracking-wider text-primary uppercase bg-blue-50 rounded-full">
+                  Who We Are
+                </div>
+                <p className="text-slate-600 leading-relaxed mb-6">
+                  Established exclusively to support the global expansion and
+                  operational efficiency of
+                  <span className="font-bold text-slate-800">
+                    {" "}
+                    TAI Mac Engineering Corporation (Japan)
+                  </span>{" "}
+                  and its U.S. subsidiary,
+                  <span className="font-bold text-slate-800">
+                    {" "}
+                    Hi Mac USA Inc.
+                  </span>
+                  , based in Texas.
+                </p>
+                <p className="text-slate-600 leading-relaxed mb-8">
+                  Led by visionary founder{" "}
+                  <span className="font-semibold text-slate-800">
+                    Anupa Poudel
+                  </span>
+                  , our mission is to serve as a seamless offshore
+                  partner—bridging innovation and engineering excellence from
+                  Nepal to Japan and the United States.
+                </p>
+
+                {/* Quote Block */}
+                <div className="border-l-4 border-blue-600 pl-6 py-2 bg-slate-50 rounded-r-xl">
+                  <p className="italic text-slate-700 font-medium">
+                    "From Nepal to Japan to Texas — we help Hi Mac grow
+                    globally, and we contribute to the U.S. economy with pride."
+                  </p>
+                </div>
+              </div>
+
+              {/* Services List */}
+              <div className="lg:col-span-5 bg-slate-900 rounded-2xl p-8 text-white">
+                <h3 className="text-xl font-bold mb-6">Our Specializations</h3>
+                <ul className="space-y-4">
+                  {services.map((service, index) => (
+                    <li key={index} className="flex items-start gap-3">
+                      <span className="flex-shrink-0 w-6 h-6 bg-blue-500/20 text-blue-400 rounded-full flex items-center justify-center text-xs">
+                        ✓
+                      </span>
+                      <span className="text-slate-300 text-sm md:text-base leading-snug">
+                        {service}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
