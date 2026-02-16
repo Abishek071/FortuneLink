@@ -13,79 +13,77 @@ const OurTeam = () => {
       name: "Tanuja Tamang",
       role: "Country Manager",
       image:
-        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/408609_531392.jpeg",
+        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1429552/485962_499102.jpeg",
     },
     {
       name: "Radhika Karki",
       role: "Global IT Sales & Marketing Officer",
       image:
-        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/408609_531392.jpeg",
+        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/530688_252277.png",
     },
     {
       name: "Laxmi Shrestha",
       role: "Global IT Sales & Marketing Officer",
       image:
-        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/408609_531392.jpeg",
+        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1429552/206375_663368.jpeg",
     },
     {
       name: "Shyam Thapa",
       role: "Global IT Sales & Marketing Officer",
       image:
-        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/408609_531392.jpeg",
+        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1429552/536436_447154.jpeg",
     },
     {
       name: "Aman Silwal",
       role: "Global IT Sales & Marketing Officer",
       image:
-        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/408609_531392.jpeg",
+        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1429552/944866_587088.jpeg",
     },
     {
       name: "Subash Poudel",
       role: "Global IT Sales & Marketing Officer",
       image:
-        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/408609_531392.jpeg",
+        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1429552/881201_465568.jpeg",
     },
     {
       name: "Sujan Man Singh",
       role: "Global IT Sales & Marketing Officer",
       image:
-        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/408609_531392.jpeg",
+        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/265369_950216.jpg",
     },
     {
       name: "Purshottam Silwal",
       role: "Global IT Sales & Marketing Officer",
       image:
-        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/408609_531392.jpeg",
+        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/312703_219506.jpeg",
     },
     {
       name: "Nisan Adhikari",
       role: "Global IT Sales & Marketing Officer",
       image:
-        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/408609_531392.jpeg",
+        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1429552/903589_783745.jpeg",
     },
     {
       name: "Tamang Saurav",
       role: "Global IT Sales & Marketing Officer",
       image:
-        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/408609_531392.jpeg",
+        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1429552/305036_497347.jpeg",
     },
     {
       name: "Bikesh K C",
       role: "Global IT Sales & Marketing Officer",
       image:
-        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/408609_531392.jpeg",
+        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1429552/328897_27047.jpeg",
     },
     {
       name: "Bikash Pahadi",
       role: "Global IT Sales & Marketing Officer",
-      image:
-        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/408609_531392.jpeg",
     },
     {
       name: "Chiva Dongol",
       role: "Global IT Sales & Marketing Officer",
       image:
-        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/408609_531392.jpeg",
+        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1429552/120704_240597.jpeg",
     },
   ];
 
@@ -119,7 +117,7 @@ const OurTeam = () => {
               <div className="relative w-28 h-28 mx-auto mb-6">
                 <div className="absolute inset-0 bg-blue-100 rounded-full scale-0 group-hover:scale-110 transition-transform duration-300"></div>
                 <img
-                  src={member.image}
+                  src={member.image || "/placeholder.png"}
                   alt={member.name}
                   className="relative w-full h-full object-cover rounded-full border-4 border-white shadow-md grayscale group-hover:grayscale-0 transition-all duration-300"
                 />
