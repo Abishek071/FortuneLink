@@ -46,18 +46,6 @@ const OurTeam = () => {
         "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/1429552/881201_465568.jpeg",
     },
     {
-      name: "Sujan Man Singh",
-      role: "Global IT Sales & Marketing Officer",
-      image:
-        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/265369_950216.jpg",
-    },
-    {
-      name: "Purshottam Silwal",
-      role: "Global IT Sales & Marketing Officer",
-      image:
-        "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1429552/312703_219506.jpeg",
-    },
-    {
       name: "Nisan Adhikari",
       role: "Global IT Sales & Marketing Officer",
       image:
