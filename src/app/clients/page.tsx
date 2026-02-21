@@ -13,7 +13,7 @@ const SoleClients = () => {
       name: "Hi Mac USA Inc.",
       location: "Texas, USA",
       flag: "US",
-      description: "U.S. Subsidiary & Primary Operations",
+      description: "U.S. Subsidiary & secondary Operations",
       details:
         "A U.S. branch owned by the Japanese parent company, investing in the American economy.",
     },
@@ -21,12 +21,11 @@ const SoleClients = () => {
 
   return (
     <section className="py-24 bg-white">
-      <div className="max-w-6xl mx-auto px-6 text-center">
-        {/* Header Section */}
+      <div className="max-w-7xl mx-auto px-6 text-center">
         <div className="mb-16">
           <div className="inline-flex items-center justify-center p-3 bg-blue-50 rounded-2xl mb-4">
             <svg
-              className="w-6 h-6 text-primary"
+              className="w-6 h-6 text-secondary"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -44,7 +43,7 @@ const SoleClients = () => {
           </h2>
           <p className="max-w-2xl mx-auto text-slate-600 text-lg">
             We do not serve the general public or other businesses.
-            <span className="text-primary font-semibold">
+            <span className="text-secondary font-semibold">
               {" "}
               Fortune Link Solutions Pvt. Ltd.
             </span>{" "}
@@ -61,7 +60,7 @@ const SoleClients = () => {
             >
               <div className="flex justify-between items-start mb-6">
                 <div>
-                  <span className="text-xs font-bold uppercase tracking-widest text-blue-500 bg-blue-100 px-3 py-1 rounded-full">
+                  <span className="text-xs font-bold uppercase tracking-widest text-secondary bg-secondary/30 px-3 py-1 rounded-full">
                     {client.location}
                   </span>
                   <h3 className="text-xl font-bold text-slate-900 mt-4">

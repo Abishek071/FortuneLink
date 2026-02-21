@@ -9,10 +9,10 @@ import { Menu, X } from "lucide-react";
 
 const links = [
   { name: "Home", href: "/" },
-  { name: "Founder's Message", href: "/message" },
-  { name: "Sole Clients", href: "/clients" },
-  { name: "Our Team", href: "/team" },
-  { name: "Services", href: "/services" },
+  { name: "Founder's Message", href: "/message/" },
+  { name: "Sole Clients", href: "/clients/" },
+  { name: "Our Team", href: "/team/" },
+  { name: "Services", href: "/services/" },
 ];
 
 const Navbar = () => {
@@ -132,7 +132,7 @@ const Navbar = () => {
                   href={link.href}
                   className={`text-lg font-medium p-3 rounded-xl transition-all ${
                     path === link.href
-                      ? "bg-blue-50 text-blue-600"
+                      ? "bg-blue-50 text-secondary"
                       : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"
                   }`}
                   onClick={() => setIsMenuOpen(false)}
@@ -150,7 +150,7 @@ const Navbar = () => {
                 setIsMenuOpen(false);
                 router.push("/contact");
               }}
-              className="w-full bg-blue-600 text-white py-4 rounded-2xl font-bold shadow-lg shadow-blue-200 active:scale-[0.98] transition-transform"
+              className="w-full bg-secondary text-white py-4 rounded-2xl font-bold shadow-lg shadow-blue-200 active:scale-[0.98] transition-transform"
             >
               Contact Us
             </button>

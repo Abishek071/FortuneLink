@@ -113,7 +113,7 @@ const LeadershipSection = () => {
                     key={i}
                     className="flex items-center gap-2 text-slate-700 font-medium"
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-indigo-500"></span>
+                    <span className="w-1.5 h-1.5 shrink-0 rounded-full bg-secondary"></span>
                     {item}
                   </li>
                 ))}

@@ -80,7 +80,7 @@ const CompanyDetails = () => {
               className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow"
             >
               <div className="text-3xl mb-4">{cat.icon}</div>
-              <h3 className="text-primary font-bold uppercase tracking-wider text-sm mb-4">
+              <h3 className="text-secondary font-bold uppercase tracking-wider text-sm mb-4">
                 {cat.title}
               </h3>
               <ul className="space-y-3">
@@ -89,7 +89,7 @@ const CompanyDetails = () => {
                     key={i}
                     className="text-slate-600 text-sm flex items-start gap-2"
                   >
-                    <span className="text-blue-400">•</span> {item}
+                    <span className="text-secondary">•</span> {item}
                   </li>
                 ))}
               </ul>
@@ -103,7 +103,7 @@ const CompanyDetails = () => {
         <div className="max-w-5xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Commitment Card */}
-            <div className="bg-blue-600 rounded-[2.5rem] p-10 text-white relative overflow-hidden">
+            <div className="bg-secondary rounded-[2.5rem] p-10 text-white relative overflow-hidden">
               <div className="absolute top-0 right-0 p-8 text-6xl opacity-10 font-bold">
                 US
               </div>

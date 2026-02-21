@@ -8,8 +8,8 @@ const ContactPage = () => {
         {/* Header Section */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 rounded-full mb-6">
-            <span className="text-primary">📞</span>
-            <span className="text-sm font-bold text-primary uppercase tracking-widest">
+            <span className="text-secondary">📞</span>
+            <span className="text-sm font-bold text-secondary uppercase tracking-widest">
               Connect With Us
             </span>
           </div>
@@ -29,7 +29,7 @@ const ContactPage = () => {
               {/* Communication Links */}
               <div className="space-y-8">
                 <div className="flex items-start gap-6 group">
-                  <div className="w-12 h-12 bg-slate-900 text-white rounded-2xl flex items-center justify-center shrink-0 group-hover:bg-blue-600 transition-colors">
+                  <div className="w-12 h-12 bg-slate-900 text-white rounded-2xl flex items-center justify-center shrink-0 group-hover:bg-secondary transition-colors">
                     <svg
                       className="w-6 h-6"
                       fill="none"
@@ -45,12 +45,12 @@ const ContactPage = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-xs font-bold text-primary uppercase tracking-widest mb-1">
+                    <p className="text-xs font-bold text-secondary uppercase tracking-widest mb-1">
                       Landline
                     </p>
                     <a
                       href="tel:+97715926894"
-                      className="text-xl font-semibold text-slate-900 hover:text-primary transition-colors"
+                      className="text-xl font-semibold text-slate-900 hover:text-secondary transition-colors"
                     >
                       +977 1 5926894
                     </a>
@@ -58,7 +58,7 @@ const ContactPage = () => {
                 </div>
 
                 <div className="flex items-start gap-6 group">
-                  <div className="w-12 h-12 bg-slate-900 text-white rounded-2xl flex items-center justify-center shrink-0 group-hover:bg-blue-600 transition-colors">
+                  <div className="w-12 h-12 bg-slate-900 text-white rounded-2xl flex items-center justify-center shrink-0 group-hover:bg-secondary transition-colors">
                     <svg
                       className="w-6 h-6"
                       fill="none"
@@ -74,12 +74,12 @@ const ContactPage = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-xs font-bold text-primary uppercase tracking-widest mb-1">
+                    <p className="text-xs font-bold text-secondary uppercase tracking-widest mb-1">
                       Email Address
                     </p>
                     <a
                       href="mailto:info@fortunelink-solutions.com"
-                      className="text-xl font-semibold text-slate-900 hover:text-primary transition-colors"
+                      className="text-xl font-semibold text-slate-900 hover:text-secondary transition-colors"
                     >
                       info@fortunelink-solutions.com
                     </a>
@@ -87,7 +87,7 @@ const ContactPage = () => {
                 </div>
 
                 <div className="flex items-start gap-6 group">
-                  <div className="w-12 h-12 bg-slate-900 text-white rounded-2xl flex items-center justify-center shrink-0 group-hover:bg-blue-600 transition-colors">
+                  <div className="w-12 h-12 bg-slate-900 text-white rounded-2xl flex items-center justify-center shrink-0 group-hover:bg-secondary transition-colors">
                     <svg
                       className="w-6 h-6"
                       fill="none"
@@ -109,7 +109,7 @@ const ContactPage = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-xs font-bold text-primary uppercase tracking-widest mb-1">
+                    <p className="text-xs font-bold text-secondary uppercase tracking-widest mb-1">
                       HQ Address
                     </p>
                     <p className="text-xl font-semibold text-slate-900 leading-snug">
@@ -131,11 +131,11 @@ const ContactPage = () => {
                 </h4>
                 <p className="text-slate-400 text-sm leading-relaxed">
                   Fortune Link Solutions Pvt. Ltd. exclusively serves{" "}
-                  <span className="text-blue-400 font-medium">
+                  <span className="text-secondary font-medium">
                     TAI Mac Engineering Corporation (Japan)
                   </span>{" "}
                   and{" "}
-                  <span className="text-blue-400 font-medium">
+                  <span className="text-secondary font-medium">
                     HI Mac USA Inc. (Texas, USA)
                   </span>
                   . We do not handle inquiries from external businesses or the

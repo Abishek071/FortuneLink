@@ -80,9 +80,9 @@ const OurTeam = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Header Area */}
         <div className="text-center mb-20">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 rounded-full mb-4">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-secondary/30 rounded-full mb-4">
             <span className="text-xl">👨‍💻</span>
-            <span className="text-sm font-bold text-primary uppercase tracking-widest">
+            <span className="text-sm font-bold text-secondary uppercase tracking-widest">
               Leadership & Staff
             </span>
           </div>
@@ -115,7 +115,7 @@ const OurTeam = () => {
               <h3 className="text-lg font-bold text-slate-900 group-hover:text-primary transition-colors">
                 {member.name}
               </h3>
-              <p className="text-sm font-medium text-blue-500 mb-3">
+              <p className="text-sm font-medium text-secondary mb-3">
                 {member.role}
               </p>
 

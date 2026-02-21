@@ -1,5 +1,9 @@
 // app/page.tsx
 import Navbar from "@/components/layout/Navbar";
+import Hero from "../components/home/Hero";
+import WhyChoose from "@/components/home/Whychoose";
+import StrategyMeets from "@/components/home/StrategyMeets";
+import Testimonials from "@/components/home/Testimonials";
 
 export default function Home() {
   const services = [
@@ -12,8 +16,11 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900">
       <main>
-        {/* Hero Section */}
-        <section className="relative py-20 lg:py-32 overflow-hidden bg-slate-900 min-h-[calc(100vh-80px)] flex justify-center items-center">
+        <Hero />
+        <WhyChoose />
+        <StrategyMeets />
+        <Testimonials />
+        {/* <section className="relative py-20 lg:py-32 overflow-hidden bg-slate-900 min-h-[calc(100vh-80px)] flex justify-center items-center">
           <div className="relative max-w-5xl mx-auto px-6 text-center">
             <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 tracking-tight">
               Welcome to Fortune Link <br />
@@ -26,13 +33,13 @@ export default function Home() {
               excellence.
             </p>
           </div>
-        </section>
+        </section> */}
 
         {/* Content Section */}
-        <section className="max-w-5xl mx-auto px-6 my-8">
+        {/* <section className="max-w-5xl mx-auto px-6 my-8">
           <div className="bg-white rounded-3xl shadow-xl shadow-slate-200/60 p-8 md:p-12 border border-slate-100">
             <div className="grid lg:grid-cols-12 gap-12">
-              {/* Text Content */}
+              
               <div className="lg:col-span-7">
                 <div className="inline-block px-4 py-1.5 mb-6 text-sm font-bold tracking-wider text-primary uppercase bg-blue-50 rounded-full">
                   Who We Are
@@ -61,8 +68,8 @@ export default function Home() {
                   Nepal to Japan and the United States.
                 </p>
 
-                {/* Quote Block */}
-                <div className="border-l-4 border-blue-600 pl-6 py-2 bg-slate-50 rounded-r-xl">
+                
+                <div className="border-l-4 border-secondary pl-6 py-2 bg-slate-50 rounded-r-xl">
                   <p className="italic text-slate-700 font-medium">
                     "From Nepal to Japan to Texas — we help Hi Mac grow
                     globally, and we contribute to the U.S. economy with pride."
@@ -70,7 +77,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Services List */}
+              
               <div className="lg:col-span-5 bg-slate-900 rounded-2xl p-8 text-white">
                 <h3 className="text-xl font-bold mb-6">Our Specializations</h3>
                 <ul className="space-y-4">
@@ -88,7 +95,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
     </div>
   );

@@ -12,7 +12,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Fortune Link Solutions Pvt. Ltd.",
-  description: "Fortune Link Solutions Pvt. Ltd.",
+  description:
+    "Fortune Link Solutions Empowering TAI Group from Japan to the USA through specialized IT and engineering excellence.",
 };
 
 export default function RootLayout({

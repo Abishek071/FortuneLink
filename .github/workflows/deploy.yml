@@ -24,8 +24,6 @@ jobs:
 
       - name: Build static site
         run: npm run build
-        # Assumes your package.json has "build": "next build && next export"
-        # or for Next.js 13+ with output: 'export' in next.config.js
 
       - name: Deploy to Xserver via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
