@@ -14,7 +14,7 @@ const LeadershipSection = () => {
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
-          <div className="md:w-7/12 p-8 md:p-15 flex flex-col justify-center">
+          <div className="md:w-7/12 p-4 md:p-15 flex flex-col justify-center">
             <span className="text-secondary font-bold tracking-widest uppercase text-xs mb-3 block">
               Executive Leadership
             </span>
@@ -64,7 +64,7 @@ const LeadershipSection = () => {
               className="absolute inset-0 w-full h-full object-cover object-top"
             />
           </div>
-          <div className="md:w-7/12 p-8 md:p-15 flex flex-col justify-center">
+          <div className="md:w-7/12 p-4 md:p-15 flex flex-col justify-center">
             <span className="text-secondary font-bold tracking-widest uppercase text-xs mb-3 block">
               Regional Management
             </span>

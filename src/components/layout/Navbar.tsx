@@ -93,11 +93,8 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-
-        {/* --- MOBILE MENU SYSTEM --- */}
-
-        {/* Overlay (Darkens the background) */}
       </nav>
+      {/* --- MOBILE MENU SYSTEM --- */}
       <div
         className={`fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-60 md:hidden transition-opacity duration-300 ${
           isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
@@ -150,7 +147,7 @@ const Navbar = () => {
                 setIsMenuOpen(false);
                 router.push("/contact");
               }}
-              className="w-full bg-secondary text-white py-4 rounded-2xl font-bold shadow-lg shadow-blue-200 active:scale-[0.98] transition-transform"
+              className="w-full bg-secondary text-white py-4 rounded-2xl font-bold shadow-lg shadow-secondary/40 active:scale-[0.98] transition-transform"
             >
               Contact Us
             </button>

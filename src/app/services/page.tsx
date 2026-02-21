@@ -64,7 +64,7 @@ const CompanyDetails = () => {
   return (
     <div className="bg-slate-50">
       {/* 1. Services Section */}
-      <section className="py-24 max-w-7xl mx-auto px-6">
+      <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center gap-4 mb-12">
           <div className="h-px flex-1 bg-slate-200"></div>
           <h2 className="text-3xl font-bold text-slate-900 flex items-center gap-3">

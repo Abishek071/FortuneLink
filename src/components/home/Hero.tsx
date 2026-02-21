@@ -71,7 +71,7 @@ function ShimmerText({
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[calc(100vh-80px)] flex justify-center items-center">
+    <section className="relative min-h-[calc(100vh-80px)] flex justify-center items-center mt-4 md:mt-0">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid items-center gap-10 md:grid-cols-2">
           {/* Left */}
