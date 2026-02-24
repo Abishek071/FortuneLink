@@ -1,18 +1,13 @@
-// components/ContactPage.tsx
+import ContactFormSection from "@/components/ContactForm";
 import React from "react";
 
 const ContactPage = () => {
   return (
     <section className="min-h-screen bg-slate-50 py-24 px-4 sm:px-6 lg:px-8">
+      <ContactFormSection />
       <div className="max-w-4xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 rounded-full mb-6">
-            <span className="text-secondary">📞</span>
-            <span className="text-sm font-bold text-secondary uppercase tracking-widest">
-              Connect With Us
-            </span>
-          </div>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
             Contact Information
           </h1>
